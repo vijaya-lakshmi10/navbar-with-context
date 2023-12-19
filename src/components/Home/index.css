@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.home-sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bg-dark {
+  background-color: #000000;
+}
+.bg-light {
+  background-color: #ffffff;
+}
+.home-img {
+  height: 125px;
+}
+.home-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.bg-dark-text {
+  color: #1e293b;
+}
+.bg-light-text {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 48px;
+  }
+}
